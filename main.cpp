@@ -9,7 +9,7 @@ unsigned int GetTime(){
 
     /*
     This function replaces Cube World's timeGetTime.
-    It uses a time delta which world across timeGetTime overflows.
+    It uses a time delta which works across timeGetTime overflows.
     Cube World will treat the result of this as the current system time,
     instead of the actual system time. This means that you may run the
     game for 24 days before encountering the bug, as opposed to
